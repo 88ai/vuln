@@ -16,7 +16,8 @@ vuln6581362514513155613jboss
 #referer:https://github.com/yunxu1/jboss-_CVE-2017-12149
 
 3.批量验证漏洞(支持http/https协议)
-python Jboss-cve201712149-pl.py urllist.txt
+```shell/cmd
+$ python Jboss-cve201712149-pl.py urllist.txt
 ```
 urllist.txt-format:
 http://1.1.1.1:8080

@@ -17,9 +17,10 @@ vuln6581362514513155613jboss
 
 3.批量验证漏洞(支持http/https协议)
 python Jboss-cve201712149-pl.py urllist.txt
+```
 urllist.txt-format:
 http://1.1.1.1:8080
-
+```
 #成功返回:
 http://192.168.1.10:8080/invoker/readonly maybe use HttpInvoker! 
 http://192.168.1.10:8080 is  Vul-Jboss-cve-2017-12149! 
